@@ -20,6 +20,7 @@ Each track also renders a little visualization (a scrolling `._pianoroll()`) as 
 | File | Style | Notes |
 |------|-------|-------|
 | [`aquatic-ambience.js`](aquatic-ambience.js) | Underwater dreamcore | A piano arrangement of *Aquatic Ambience* (David Wise, *Donkey Kong Country*) — flowing arpeggios, suspended harmony, and heavy reverb. F# minor, ~58 bars, built from reusable section blocks stitched together with `arrange()`. Tinted with a drifting aquatic palette. |
+| [`children.js`](children.js) | Dream trance | A remake of Robert Miles' *Children* (1995), the genre's landmark. F minor, 138 BPM, a 44-bar arrangement that grows intro → verse → build → drop → breakdown → final — piano lead, supersaw pad, off-beat bass, and four-on-the-floor drums, layered per-part with `arrange()`. |
 
 ## What is "dreamcore"?
 
