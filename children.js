@@ -93,12 +93,12 @@ stack(
 
   // 🌫️ pad bed — always present, brighter in the drop
   arrange(
-    [8, pad.gain(0.4)],
     [8, pad.gain(0.25)],
-    [8, pad.gain(0.3)],
-    [8, pad.gain(0.45)],
-    [4, pad.gain(0.4)],
-    [8, pad.gain(0.45)]
+    [8, pad.gain(0.16)],
+    [8, pad.gain(0.2)],
+    [8, pad.gain(0.28)],
+    [4, pad.gain(0.25)],
+    [8, pad.gain(0.28)]
   ),
 
   // 🎸 bass — verse uses the score's left-hand piano; electronic sections use an off-beat saw
@@ -116,19 +116,19 @@ stack(
     [8, REST],
     [8, REST],
     [8, REST],
-    [8, stabs.s("supersaw").detune(0.15).lpf(2400).attack(0.01).decay(0.15).sustain(0.1).room(0.4).gain(0.3)],
+    [8, stabs.s("supersaw").detune(0.15).lpf(2400).attack(0.01).decay(0.15).sustain(0.1).room(0.4).gain(0.18)],
     [4, REST],
-    [8, stabs.s("supersaw").detune(0.15).lpf(2400).attack(0.01).decay(0.15).sustain(0.1).room(0.4).gain(0.3)]
+    [8, stabs.s("supersaw").detune(0.15).lpf(2400).attack(0.01).decay(0.15).sustain(0.1).room(0.4).gain(0.18)]
   ),
 
   // 🥁 kick — enters at build
   arrange(
     [8, s("~")],
     [8, s("~")],
-    [8, s("bd*4").gain(0.8)],
-    [8, s("bd*4").gain(0.9)],
+    [8, s("bd*4").gain(0.5)],
+    [8, s("bd*4").gain(0.58)],
     [4, s("~")],
-    [8, s("bd*4").gain(0.9)]
+    [8, s("bd*4").gain(0.58)]
   ),
 
   // 🥁 snare on 2 & 4 — drop / final only
@@ -136,18 +136,18 @@ stack(
     [8, s("~")],
     [8, s("~")],
     [8, s("~")],
-    [8, s("~ sd ~ sd").gain(0.45)],
+    [8, s("~ sd ~ sd").gain(0.28)],
     [4, s("~")],
-    [8, s("~ sd ~ sd").gain(0.45)]
+    [8, s("~ sd ~ sd").gain(0.28)]
   ),
 
   // 🎩 hi-hat — off-beats at build, denser in the drop
   arrange(
     [8, s("~")],
     [8, s("~")],
-    [8, s("[~ hh]*4").gain(0.3)],
-    [8, s("hh*8").gain(0.22)],
+    [8, s("[~ hh]*4").gain(0.18)],
+    [8, s("hh*8").gain(0.13)],
     [4, s("~")],
-    [8, s("hh*8").gain(0.22)]
+    [8, s("hh*8").gain(0.13)]
   )
 )
